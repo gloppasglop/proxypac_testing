@@ -3,6 +3,10 @@ const fs = require('fs');
 const pac = require('pac-resolver');
 
 
+var pacFileName = process.argv[3];
+console.log('Pac file Name' + pacFileName);
+
+
 // Wrapper around pac-resolver
 // Override the myIpaddress function to return the passed Ip address
 // This allows for testing behaviour for different Ip addresses
