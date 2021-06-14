@@ -1,0 +1,16 @@
+{
+  "name": "proxypac",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^27.0.4",
+    "pac-resolver": "^4.2.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "MIT"
+}
