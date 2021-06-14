@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="41" failures="0" errors="0" time="1.381">
+  <testsuite name="Test for DIRECT cases" errors="0" failures="0" skipped="0" timestamp="2021-06-14T11:40:49" time="1.306" tests="41">
+    <testcase classname="Test for DIRECT cases Proxy for http://localhost should be DIRECT" name="Test for DIRECT cases Proxy for http://localhost should be DIRECT" time="0.045">
+    </testcase>
+    <testcase classname="Test for DIRECT cases Proxy for http://localhost.localdomain should be DIRECT" name="Test for DIRECT cases Proxy for http://localhost.localdomain should be DIRECT" time="0.03">
+    </testcase>
+    <testcase classname="Test for DIRECT cases Proxy for http://127.0.0.1 should be DIRECT" name="Test for DIRECT cases Proxy for http://127.0.0.1 should be DIRECT" time="0.02">
+    </testcase>
+    <testcase classname="Test for DIRECT cases Proxy for http://server1.corp.example.com should be DIRECT" name="Test for DIRECT cases Proxy for http://server1.corp.example.com should be DIRECT" time="0.018">
+    </testcase>
+    <testcase classname="Test for DIRECT cases Proxy for http://server1.domain1.corp.example.com should be DIRECT" name="Test for DIRECT cases Proxy for http://server1.domain1.corp.example.com should be DIRECT" time="0.021">
+    </testcase>
+    <testcase classname="Test for DIRECT cases Proxy for http://server1.cloud.example.com should be DIRECT" name="Test for DIRECT cases Proxy for http://server1.cloud.example.com should be DIRECT" time="0.016">
+    </testcase>
+    <testcase classname="Test for DIRECT cases Proxy for http://server1.domain1.cloud.example.com should be DIRECT" name="Test for DIRECT cases Proxy for http://server1.domain1.cloud.example.com should be DIRECT" time="0.017">
+    </testcase>
+    <testcase classname="Test for DIRECT cases Proxy for http://server1.us.net should be DIRECT" name="Test for DIRECT cases Proxy for http://server1.us.net should be DIRECT" time="0.017">
+    </testcase>
+    <testcase classname="Test for DIRECT cases Proxy for http://server1.domain1.us.net should be DIRECT" name="Test for DIRECT cases Proxy for http://server1.domain1.us.net should be DIRECT" time="0.014">
+    </testcase>
+    <testcase classname="Test for DIRECT cases Proxy for http://server1 should be DIRECT" name="Test for DIRECT cases Proxy for http://server1 should be DIRECT" time="0.011">
+    </testcase>
+    <testcase classname="Test for DIRECT cases Proxy for http://server2 should be DIRECT" name="Test for DIRECT cases Proxy for http://server2 should be DIRECT" time="0.014">
+    </testcase>
+    <testcase classname="Test for DIRECT cases Proxy for https://server1 should be DIRECT" name="Test for DIRECT cases Proxy for https://server1 should be DIRECT" time="0.017">
+    </testcase>
+    <testcase classname="Test for DIRECT cases Proxy for https://server2 should be DIRECT" name="Test for DIRECT cases Proxy for https://server2 should be DIRECT" time="0.01">
+    </testcase>
+    <testcase classname="Test for DIRECT cases Proxy for http://web1.example.com should be DIRECT" name="Test for DIRECT cases Proxy for http://web1.example.com should be DIRECT" time="0.015">
+    </testcase>
+    <testcase classname="Test for DIRECT cases Proxy for https://web1.example.com should be DIRECT" name="Test for DIRECT cases Proxy for https://web1.example.com should be DIRECT" time="0.012">
+    </testcase>
+    <testcase classname="Test for DIRECT cases Proxy for http://web1.example.net should be DIRECT" name="Test for DIRECT cases Proxy for http://web1.example.net should be DIRECT" time="0.014">
+    </testcase>
+    <testcase classname="Test for DIRECT cases Proxy for https://web1.example.net should be DIRECT" name="Test for DIRECT cases Proxy for https://web1.example.net should be DIRECT" time="0.016">
+    </testcase>
+    <testcase classname="Test for DIRECT cases Proxy for http://12.12.12.1 should be DIRECT" name="Test for DIRECT cases Proxy for http://12.12.12.1 should be DIRECT" time="0.014">
+    </testcase>
+    <testcase classname="Test for DIRECT cases Proxy for http://12.12.12.3 should be DIRECT" name="Test for DIRECT cases Proxy for http://12.12.12.3 should be DIRECT" time="0.01">
+    </testcase>
+    <testcase classname="Test for DIRECT cases Proxy for http://13.13.13.12 should be DIRECT" name="Test for DIRECT cases Proxy for http://13.13.13.12 should be DIRECT" time="0.01">
+    </testcase>
+    <testcase classname="Test for DIRECT cases Proxy for http://13.13.13.222 should be DIRECT" name="Test for DIRECT cases Proxy for http://13.13.13.222 should be DIRECT" time="0.017">
+    </testcase>
+    <testcase classname="Test for DIRECT cases Proxy for http://14.14.13.12 should be DIRECT" name="Test for DIRECT cases Proxy for http://14.14.13.12 should be DIRECT" time="0.013">
+    </testcase>
+    <testcase classname="Test for DIRECT cases Proxy for http://14.14.14.222 should be DIRECT" name="Test for DIRECT cases Proxy for http://14.14.14.222 should be DIRECT" time="0.008">
+    </testcase>
+    <testcase classname="Test for site specific proxy cases Proxy for http://toto.myapp.mydomain.com should be PROXY 3.3.3.3:7777: PROXY 4.4.4.4:7777" name="Test for site specific proxy cases Proxy for http://toto.myapp.mydomain.com should be PROXY 3.3.3.3:7777: PROXY 4.4.4.4:7777" time="0.011">
+    </testcase>
+    <testcase classname="Test for site specific proxy cases Proxy for http://toto.tutu.myapp.mydomain.com should be PROXY 3.3.3.3:7777: PROXY 4.4.4.4:7777" name="Test for site specific proxy cases Proxy for http://toto.tutu.myapp.mydomain.com should be PROXY 3.3.3.3:7777: PROXY 4.4.4.4:7777" time="0.009">
+    </testcase>
+    <testcase classname="Test for no DIRECT cases Testing Odd IP addresses  Proxy for http://www.google.com for client ip 69.69.69.69 should be PROXY 1.1.1.1:8080; PROXY 2.2.2.2:8080" name="Test for no DIRECT cases Testing Odd IP addresses  Proxy for http://www.google.com for client ip 69.69.69.69 should be PROXY 1.1.1.1:8080; PROXY 2.2.2.2:8080" time="0.015">
+    </testcase>
+    <testcase classname="Test for no DIRECT cases Testing Odd IP addresses  Proxy for https://www.google.com for client ip 69.69.69.69 should be PROXY 1.1.1.1:8080; PROXY 2.2.2.2:8080" name="Test for no DIRECT cases Testing Odd IP addresses  Proxy for https://www.google.com for client ip 69.69.69.69 should be PROXY 1.1.1.1:8080; PROXY 2.2.2.2:8080" time="0.013">
+    </testcase>
+    <testcase classname="Test for no DIRECT cases Testing Odd IP addresses  Proxy for http://server1.example.com for client ip 69.69.69.69 should be PROXY 1.1.1.1:8080; PROXY 2.2.2.2:8080" name="Test for no DIRECT cases Testing Odd IP addresses  Proxy for http://server1.example.com for client ip 69.69.69.69 should be PROXY 1.1.1.1:8080; PROXY 2.2.2.2:8080" time="0.013">
+    </testcase>
+    <testcase classname="Test for no DIRECT cases Testing Odd IP addresses  Proxy for https://server1.example.com for client ip 69.69.69.69 should be PROXY 1.1.1.1:8080; PROXY 2.2.2.2:8080" name="Test for no DIRECT cases Testing Odd IP addresses  Proxy for https://server1.example.com for client ip 69.69.69.69 should be PROXY 1.1.1.1:8080; PROXY 2.2.2.2:8080" time="0.016">
+    </testcase>
+    <testcase classname="Test for no DIRECT cases Testing Odd IP addresses  Proxy for http://www.google.com for client ip 69.69.69.68 should be PROXY 1.1.1.1:8080; PROXY 2.2.2.2:8080" name="Test for no DIRECT cases Testing Odd IP addresses  Proxy for http://www.google.com for client ip 69.69.69.68 should be PROXY 1.1.1.1:8080; PROXY 2.2.2.2:8080" time="0.015">
+    </testcase>
+    <testcase classname="Test for no DIRECT cases Testing Odd IP addresses  Proxy for https://www.google.com for client ip 69.69.69.68 should be PROXY 1.1.1.1:8080; PROXY 2.2.2.2:8080" name="Test for no DIRECT cases Testing Odd IP addresses  Proxy for https://www.google.com for client ip 69.69.69.68 should be PROXY 1.1.1.1:8080; PROXY 2.2.2.2:8080" time="0.012">
+    </testcase>
+    <testcase classname="Test for no DIRECT cases Testing Odd IP addresses  Proxy for http://server1.example.com for client ip 69.69.69.68 should be PROXY 1.1.1.1:8080; PROXY 2.2.2.2:8080" name="Test for no DIRECT cases Testing Odd IP addresses  Proxy for http://server1.example.com for client ip 69.69.69.68 should be PROXY 1.1.1.1:8080; PROXY 2.2.2.2:8080" time="0.008">
+    </testcase>
+    <testcase classname="Test for no DIRECT cases Testing Odd IP addresses  Proxy for https://server1.example.com for client ip 69.69.69.68 should be PROXY 1.1.1.1:8080; PROXY 2.2.2.2:8080" name="Test for no DIRECT cases Testing Odd IP addresses  Proxy for https://server1.example.com for client ip 69.69.69.68 should be PROXY 1.1.1.1:8080; PROXY 2.2.2.2:8080" time="0.012">
+    </testcase>
+    <testcase classname="Test for no DIRECT cases Testing Odd IP addresses  Proxy for http://www.google.com for client ip 70.70.10.11 should be PROXY 1.1.1.1:8080; PROXY 2.2.2.2:8080" name="Test for no DIRECT cases Testing Odd IP addresses  Proxy for http://www.google.com for client ip 70.70.10.11 should be PROXY 1.1.1.1:8080; PROXY 2.2.2.2:8080" time="0.011">
+    </testcase>
+    <testcase classname="Test for no DIRECT cases Testing Odd IP addresses  Proxy for http://www.google.com for client ip 70.70.20.222 should be PROXY 1.1.1.1:8080; PROXY 2.2.2.2:8080" name="Test for no DIRECT cases Testing Odd IP addresses  Proxy for http://www.google.com for client ip 70.70.20.222 should be PROXY 1.1.1.1:8080; PROXY 2.2.2.2:8080" time="0.011">
+    </testcase>
+    <testcase classname="Test for no DIRECT cases Testing Odd IP addresses  Proxy for http://server1.example.com for client ip 70.70.10.11 should be PROXY 1.1.1.1:8080; PROXY 2.2.2.2:8080" name="Test for no DIRECT cases Testing Odd IP addresses  Proxy for http://server1.example.com for client ip 70.70.10.11 should be PROXY 1.1.1.1:8080; PROXY 2.2.2.2:8080" time="0.008">
+    </testcase>
+    <testcase classname="Test for no DIRECT cases Testing Odd IP addresses  Proxy for http://server1.example.com for client ip 70.70.20.222 should be PROXY 1.1.1.1:8080; PROXY 2.2.2.2:8080" name="Test for no DIRECT cases Testing Odd IP addresses  Proxy for http://server1.example.com for client ip 70.70.20.222 should be PROXY 1.1.1.1:8080; PROXY 2.2.2.2:8080" time="0.011">
+    </testcase>
+    <testcase classname="Test for no DIRECT cases Testing Odd IP addresses  Proxy for http://www.google.com for client ip 80.80.10.11 should be PROXY 1.1.1.1:8080; PROXY 2.2.2.2:8080" name="Test for no DIRECT cases Testing Odd IP addresses  Proxy for http://www.google.com for client ip 80.80.10.11 should be PROXY 1.1.1.1:8080; PROXY 2.2.2.2:8080" time="0.012">
+    </testcase>
+    <testcase classname="Test for no DIRECT cases Testing Odd IP addresses  Proxy for http://www.google.com for client ip 80.80.20.222 should be PROXY 1.1.1.1:8080; PROXY 2.2.2.2:8080" name="Test for no DIRECT cases Testing Odd IP addresses  Proxy for http://www.google.com for client ip 80.80.20.222 should be PROXY 1.1.1.1:8080; PROXY 2.2.2.2:8080" time="0.009">
+    </testcase>
+    <testcase classname="Test for no DIRECT cases Testing Odd IP addresses  Proxy for http://server1.example.com for client ip 80.80.10.11 should be PROXY 1.1.1.1:8080; PROXY 2.2.2.2:8080" name="Test for no DIRECT cases Testing Odd IP addresses  Proxy for http://server1.example.com for client ip 80.80.10.11 should be PROXY 1.1.1.1:8080; PROXY 2.2.2.2:8080" time="0.008">
+    </testcase>
+    <testcase classname="Test for no DIRECT cases Testing Odd IP addresses  Proxy for http://server1.example.com for client ip 80.80.20.222 should be PROXY 1.1.1.1:8080; PROXY 2.2.2.2:8080" name="Test for no DIRECT cases Testing Odd IP addresses  Proxy for http://server1.example.com for client ip 80.80.20.222 should be PROXY 1.1.1.1:8080; PROXY 2.2.2.2:8080" time="0.012">
+    </testcase>
+  </testsuite>
+</testsuites>

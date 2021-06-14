@@ -6,6 +6,7 @@
   "dependencies": {},
   "devDependencies": {
     "jest": "^27.0.4",
+    "jest-junit": "^12.2.0",
     "pac-resolver": "^4.2.0"
   },
   "scripts": {
